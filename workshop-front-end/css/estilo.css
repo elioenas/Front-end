@@ -7,8 +7,8 @@
 }
 
 body {
-	font-size: 1em; /* font-size: tamanho da fonte (px, em, %). 1em = 16px (padrão) */
-	font-family: "Trebuchet MS", Helvetica, sans-serif; /* https://bit.ly/2hvMW8u */
+	font-size: 1em; /* font-size: tamanho da fonte  */
+	font-family: "Trebuchet MS", Helvetica, sans-serif; / *fonte da pagina no exemplo foi  a Helvetica */
 	background: #e6e6e6; /* background: modifica as propriedades do background da página */
 }
 
