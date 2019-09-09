@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title></title>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div><!-- div do menu-->
+	<nav class="navbar navbar-white bg-white" ><!-- menu de navegacao -->
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link text-dark" href="">Pagina Inicial</a>
+				</li>
+				<li>
+					<a class="nav-link text-dark" href="">Sobre</a>
+				</li>
+				<li>
+					<a class="nav-link text-dark" href="">Blog</a>
+				</li>
+				<li>
+					<a class="nav-link text-dark" href="">Paginas</a>
+				</li>
+				<li>
+					<a class="nav-link text-dark" href="">Contatos</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+	</nav>
+    </div><!-- div do menu-->
+<div>
+	<nav class="navbar navbar-white bg-dark" ><!-- menu de navegacao -->
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link text-white" href="tel:#">+55 83 98832-3456</a>
+				</li>
+				<li>
+					<a class="nav-link text-white" href="tel:#">+55 83 98678-8876</a>
+				</li>
+				<li>
+					<a class="nav-link text-white" href=""></a>
+				</li>
+			</ul>
+	</nav>
+    </div>
+    <section>
+    	<div class="container container-bigger form-request"><!--  div do container|container => cria um container ,container-bigger=>tamanho,-->
+    		<div class="row row-fix justify-content-sm-center justify-content-lg-end"><!-- alinhando os conteiner-->
+    			<div class="col-lg-5 col-xxl-5">
+    				<div class="form-request">
+    					<h4>Reserva</h4>
+    					<form class="form form-fix">
+    						<div class="col-sm-12">
+                        <label class="form-label-outside">Entrada</label>
+                        <div class="form-wrap form-wrap-inline">
+                              <input type="date" name="entrada ">
+                          <label class="form-label" for="forms-current-from">Selecione um data</label>
+                        </div>
+                      </div>
+                      <div class="col-sm-12">
+                        <label class="form-label-outside">Saida</label>
+                        <div class="form-wrap form-wrap-inline">
+                          <input type="date" name="Saida">
+                          <label class="form-label" for="forms-current-to">Selecione um data</label>
+                        </div>
+                      </div>
+    						<div class="col-lg-6">
+                        <label class="form-label-outside">Adultos</label>
+                        <div >
+                          <input class="form-input input-append" id="form-elemento" type="number" min="0" max="300" value="2">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <label class="form-label-outside">Crianças</label>
+                        <div>
+                          <input class="form-input input-append" id="form-elemento" type="number" min="0" max="300" value="0">
+                        </div>
+                      </div>
+                    </div>
+    				<div class="form-button">
+                      <button class="button button-block button-primary" type="submit">Verificando Disponibilidade</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+    </section>
+   <hr>
+    <footer>
+    </footer>
+</body>
+</html>
