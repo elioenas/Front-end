@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title></title>
+</head>
+<meta charset="utf-8">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<body>
+<div id="container" align="center">
+	<form method="post" action="">
+	<div class="center-align"style="margin-top: 20px; color:#434343">
+	 <h1 style="font-size:24px;">Cadastro<h1>
+	</div>
+	<div>
+    <label>Nome</label>
+    </div>
+    <div>
+      <input type="text" class="form-control"  placeholder="Nome" required="" style="width:350px;">
+    </div>
+  <div>
+    <label>Cpf</label>
+    </div>
+    <div>
+      <input type="text" class="form-control"  placeholder="Ex.: 000.000.000-00" required=""  style="width:350px;">
+    </div>
+  <div>
+    <label>Matricula</label>
+    </div>
+    <div>
+      <input type="number" class="form-control"  placeholder="Matricula" required=""  style="width:350px;">
+    </div>
+  <div >
+    <label >Email</label>
+    </div>
+    <div >
+      <input type="Email" class="form-control" placeholder="Email" required=""  style="width:350px;">
+    </div>
+   <div >
+    <label>Telefone</label>
+    </div>
+    <div>
+      <input type="text" class="form-control"  placeholder="Ex.: 000.000.000-00" required=""  style="width:350px;">
+    </div>
+<div>
+	<label>Curso</label>
+	<div>
+		<input type="text" class="form-control" required="" style="width:350px;">
+    </div>
+	<div style="width:350px;">
+	<label >Periodo:</label>
+    </div>
+    <div>
+    	<select name="Periodo" style="width:350px;">
+			<option value="1º">1ª periodo</option>
+			<option value="2º">2ª periodo</option>
+			<option value="3º">3ª periodo</option>
+			<option value="4º">4ª periodo</option>
+			<option value="5º">5ª periodo</option>
+			<option value="6º">6ª periodo</option>
+			<option value="7º">7ª periodo</option>
+			<option value="8º">8ª periodo</option>
+		</select>
+    </div>
+    <div style="width:350px;">
+	<label >Area de Interesse:</label>
+    </div>
+    <div>
+    	<select name="Periodo" style="width:350px;">
+			<option value="">Front-End</option>
+			<option value="">Back-End</option>
+			<option value="">Banco de Dados</option>
+			<option value="">Jogos</option>
+			<option value="">Mobile</option>
+			<option value="">Gerente de Projetos</option>
+			<option value="">Analista de requisitos</option>
+			<option value="">Testes</option>
+			<option value=""></option>
+			<option value=""></option>
+		</select>
+    </div>
+    <div>
+          <label>Enviar arquivo:</label>
+      </div>
+      <div>
+          <input type="file" name="arquivo" required>
+          <!--voce vai carregar um arquivo do seu computador-->
+          <!-- accept="image/*" vai limitar para enviar somente imagens para o servidor-->
+        </div>
+    </br>
+<div class="center-align">
+  <input type="submit" name="enviar">
+</div>
+	</form>
+</div><!--fechamento da classe container-->
+</body>
+</html>
