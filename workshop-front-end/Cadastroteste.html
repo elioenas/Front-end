@@ -8,10 +8,14 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/Cadastroteste.css">
 <body>
 <div id="container" align="center">
-	<form method="post" action="">
-	<div class="center-align"style="margin-top: 20px; color:#434343">
+	<form method="post" action="" class="boxmodel">
+    <div>
+            <img src="img/ubf.png" id="logo">
+          </div>
+	<div class="center-align"style="margin-top: 20px; margin-bottom: 30px; color:black">
 	 <h1 style="font-size:24px;">Cadastro<h1>
 	</div>
 	<div>
@@ -21,7 +25,7 @@
       <input type="text" class="form-control"  placeholder="Nome" required="" style="width:350px;">
     </div>
   <div>
-    <label>Cpf</label>
+    <label>CPF</label>
     </div>
     <div>
       <input type="text" class="form-control"  placeholder="Ex.: 000.000.000-00" required=""  style="width:350px;">
@@ -69,16 +73,14 @@
     </div>
     <div>
     	<select name="Periodo" style="width:350px;">
+			<option value="">Gerente de Projetos</option>
+			<option value="">Analista de Requisitos</option>
 			<option value="">Front-End</option>
 			<option value="">Back-End</option>
 			<option value="">Banco de Dados</option>
-			<option value="">Jogos</option>
 			<option value="">Mobile</option>
-			<option value="">Gerente de Projetos</option>
-			<option value="">Analista de requisitos</option>
-			<option value="">Testes</option>
-			<option value=""></option>
-			<option value=""></option>
+			<option value="">Jogos</option>
+			<option value="">Teste</option>
 		</select>
     </div>
     <div>
