@@ -19,7 +19,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding-top:170px;
-    padding-left:600px;
     background:linear-gradient(to right, lightgreen 50%,white 50%)
 }
 
@@ -43,22 +42,19 @@ p{
   font-family: arial, helvetica, sans-serif;
   font-size: 20px;
 }
-#container_dois{
- 
-   position: absolute;
-   width: 400px;
-   
+
+#container{
+
+  padding-left:600px;
+}
+#conteudo{
+
+  width: 400px;
+  float: left;
+
 }
 
 </style>
-<div id ="container_dois">
-  <h3>Seja Bem Vindo</h3>
-  <p>sadsadadsadsadsa</p>
-  <br>
-  <div id="botao">
-    <button type="submit" class="btn btn-primary">Entrar</button>
-  </div>
-</div><!-- container_dois-->
 <div id="container" align="center">
   <div>
     <p>Criar Conta</p>
@@ -73,7 +69,11 @@ p{
   <button type="submit" class="btn btn-primary">Inscrever-se</button>
 </form>
 </div>
-   
-
+   <div id ="conteudo" align="center" class="box">
+  <h3>Seja Bem Vindo</h3>
+  <p>sadsadadsadsadsa</p>
+  <br>
+    <button type="submit" class="btn btn-primary">Entrar</button>
+</div><!-- container_dois-->
 </body>
 </html>
